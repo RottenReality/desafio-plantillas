@@ -1,7 +1,18 @@
 class Contenedor{
 
     productos = [
-        
+        {
+            "title": "abrigo",
+            "price": 65,
+            "thumbnail": "https://media.istockphoto.com/photos/trenchcoat-picture-id518177352?k=20&m=518177352&s=612x612&w=0&h=ou-nQusk6JNcXpOMECx1tI_ib-JdpY74ZjctvJIT904=",
+            "id": 1
+          },
+          {
+            "title": "zapatos",
+            "price": 70,
+            "thumbnail": "https://img.lalr.co/cms/2017/12/05165632/Zapatos.jpg",
+            "id": 2
+          }
     ];
     
 
