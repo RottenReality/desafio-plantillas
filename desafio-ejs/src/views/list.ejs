@@ -1,0 +1,11 @@
+<div>
+    <a href="/">
+        <button type="button">Agregar productos</button>
+    </a>
+    <h2>lista de productos</h2>
+    <% productos.forEach((prod)=>{ %>
+        <p> <%= prod.title %> </p>
+        <p>$ <%= prod.price %> </p>
+        <img width="100" src=" <%= prod.thumbnail %> " alt="imagen de producto">
+    <% }) %>
+</div>

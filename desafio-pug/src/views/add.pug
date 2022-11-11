@@ -1,0 +1,12 @@
+div
+    a(href="/productos"): button(type="button") Ver productos
+    h2 Agregar productos
+    form(method="post" action="/productos/")
+        label Titulo:
+        input(name="title")/
+        label Precio:
+        input(name="price")/
+        label Imagen:
+        input(name="thumbnail")/
+
+        button(type="submit") Guardar

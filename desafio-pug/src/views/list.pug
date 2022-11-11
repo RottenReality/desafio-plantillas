@@ -1,0 +1,8 @@
+div
+    a(href="/"): button(type="button") agregar producto
+    h2 lista de productos
+    each val in productos
+        div
+            p !{val.title}
+            p $!{val.price}
+            img(width="100", src=" !{val.thumbnail} ")/
